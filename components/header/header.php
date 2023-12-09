@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat App</title>
-    <!-- tail Wind css -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- fontAwesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head>
-
-<body class="bg-neutral-200">
-   
-</body>
-</html>
+<?php require_once __DIR__ . '../../../includes/head.php' ?>
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div class="me-auto">
+            <h6 class="font-bold">
+                Chat Application
+            </h6>
+        </div>
+        <div class="ms-auto">
+            <ul class="flex gap-2">
+                <li class="font-normal"><a href="/phpProjects/chatApp/pages/login.php">Login</a></li>
+                <li class="font-normal"><a href="/phpProjects/chatApp/pages/register.php">Register</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
